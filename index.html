@@ -1,72 +1,310 @@
 <!Doctype html>
 
-<html lang="en-us">  
-    <head> 
-        <meta charset="utf-8">
-        <meta name=viewport content=“width=device-width,initial-scale=1”>
+<html lang="en-us">
 
-        <title> My Portfolio HW</title>
-        <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
-        <!-- <link rel="stylesheet" href="Asset/css/reset.css"> -->
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name=viewport content=“width=device-width,initial-scale=1”>
 
-    <body>
+    <title> My Portfolio HW</title>
+    <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+    <!-- <link rel="stylesheet" href="Asset/css/reset.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.2/css/uikit.min.css" />
 
-            <div class="topnav">
-                <nav class="left">
+</head>
 
-                     <a class="active" id="badge" href="#home"><strong>Hector Benitez</strong></a>
-                </nav>   
-               
-                    
-                    <div class="topnav-right">
+<body>
 
-                      <a href="index.html">About</a>
-                      <a href="portfolio.html">Portfolio</a>
-                      <a href="contact.html">Contact</a>
-                     </div>
-
-          </div>
-
-    
+    <div class="uk-section-default">
+            <div id="back" class="uk-section uk-light uk-background-cover" style="background-image: url(Assets/images/LA_back.jpg)">
+                <div class="uk-container">
         
-        <div class="wrapper">
-            <section id="content">
-
-                <h1> Blurp</h1>
-            <hr>
-            
-            <img src="Assets/images/IMG_3331.jpg" alt="dis ME" id="prof-pic" style="float: left;">
-
-                <p>
-                    Born in Los Angeles, California. Home of the Dodgers, Lakers, tacos, and sunshine.
-                    Despite being born in LA, growing up I moved alot do to my fathers work and other things...
-                    By the time I hit 8th grade, I attended 13 to 14 different schools. 
-                    Each school within a different city and state. Despite these changes I consider myself a true LA kid.
-                </p>
-
+                    <h1 class="uk-position-medium uk-position-center">Full-Stack Developer
+                        
+                        <p> Welcome! I'm Hector </p>
+                    </h1>
         
-                <p>
-                   I have 3 younger siblings who I consider my children. By the time I was 10, my parents were gone and I was left with three younger siblings at my grandparents house. 
-                </p>
-           
-            <br>
-                <p>
-                    Practically raising them until I had to focus on my personal achievements, my siblings were (at times) still my everything.
-                    Side tracking from family; I went to school in Syracuse, NY. Graduated with a B.A. in Psychology, focusing on Interpersonal Relationships.
-                </p>
-                <p>
-                    Now, I live in Center City, working in King Of Prussia! Forty minute commute, which isnt bad since I listen to music at a level that is considered "ear bursting".
-                    And that's pretty much it, I guess. In defining terms of personality I like pizza, music, movies and basketball. 
-                </p>
-            </section>
+                </div>
+            </div>
         </div>
 
-    <!-- <hr>     -->
-        <footer>
-            <p>Copyright</p>
-        </footer>
 
-    </body>
+
+
+
+    <div class="uk-section uk-section-muted">
+        <div class="uk-container">
+
+            <div uk-sticky="topnav sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+                <div class="uk-position-relative">
+
+                    <div class="uk-position-top">
+                        <nav class="uk-navbar-container uk-navbar-transparent left" uk-navbar>
+
+
+                            <ul class=" uk-subnav uk-subnav-divider">
+                                <li><a href="#Content">About</a></li>
+                                <li><a href="#Portfolio">Portfolio</a></li>
+                                <li><a href="#Contact">Contact</a></li>
+
+                            </ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="Content" class="uk-section uk-section-muted uk-section-large">
+        <div class="uk-container">
+
+            <div class="uk-child-width-1-2@m uk-grid-match" uk-grid>
+
+                <div class="uk-grid-small uk-flex-middle" uk-scrollspy="cls: uk-animation-slide-left; repeat: true"
+                    uk-grid>
+                    <div class="uk-width-auto">
+                        <img class="uk-border-circle uk-border-hover" src="Assets/images/IMG_3331.jpg" alt="dis ME">
+                    </div>
+                </div>
+
+
+
+
+                <div id="blurp" class="uk-card-hover uk-card uk-card-body " uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                    <h3 class="uk-card-title">Blurp</h3>
+                    <p>
+                        Born in Los Angeles, California. Home of the Dodgers, Lakers, tacos, and sunshine.
+                        I have 3 younger siblings who I consider my children. I went to school in Syracuse, NY. 
+                        Graduated with a B.A. in Psychology, focusing on Interpersonal Relationships.
+                    </p>
+                    <p>
+                        Now, I live in Center City, working in King Of Prussia! Forty minute commute, which
+                        isnt
+                        bad
+                        since I listen to music at a level that is considered "ear bursting".
+                        And that's pretty much it, I guess. In defining terms of personality I like pizza,
+                        music,
+                        movies and basketball.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="Portfolio" class="uk-section uk-section-large uk-section-default">
+
+
+        <div  class="uk-container">
+            <h2 class="uk-heading-line uk-text-center"><span>My Recent Work</span></h2>
+            <h3 class="uk-text-center">Here are a few of my recent projects and languages I specialize in</h3>
+
+
+            <div class="uk-grid-match uk-child-width-expand@m uk-text-center uk-margin-left" uk-grid>
+                
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body uk-card-hover uk-width-1-2@m">
+                        <div class="uk-overflow-auto">
+                            <table class="uk-table uk-table-small uk-table-divider">
+                                <thead>
+                                    <tr>
+                                        <th> <h3> I <span uk-icon="heart"></span> Code </h3>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td> HTML <span class="uk-icon uk-icon-image" style="background-image: url(Assets/images/html.png); width: 50px; height: 50px;"></span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td> CSS <span class="uk-icon uk-icon-image" style="background-image: url(Assets/images/css.png); width: 50px; height: 50px;"></span></td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td> Javascript <span class="uk-icon uk-icon-image" style="background-image: url(Assets/images/JS.png); width: 50px; height: 50px;"></span></td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td> JQuery <span class="uk-icon uk-icon-image" style="background-image: url(Assets/images/jquery.png); width: 50px; height: 50px;"></span></td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td> Node JS <span class="uk-icon uk-icon-image" style="background-image: url(Assets/images/node.png); width: 50px; height: 50px;"></span></td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td> React JS <span class="uk-icon uk-icon-image" style="background-image: url(Assets/images/react.png); width: 50px; height: 50px;"></span></td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td> MySQL <span class="uk-icon uk-icon-image" style="background-image: url(Assets/images/SQL.png); width: 50px; height: 50px;"></span></td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+                <div uk-slider="center: true">
+
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                        <ul class="uk-slider-items uk-child-width-1-2@s uk-grid">
+                            <li>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <img data-src="Assets/images/hangman.png" 
+                                            alt="" uk-img> </div>
+                                    <div class="uk-card-body uk-card-secondary">
+                                        <h3 class="uk-card-title"><a href="https://h-benitez13.github.io/Word-Guess-Game/">
+                                            Hang-man</a></h3>
+                                        <p>Classic Hang-man game using javasript. Using on-key response is captured, assessed and displayed
+                                            within the "Guess word" or pushed towards the "incorrect guesses"! 
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <img data-src="Assets/images/spongebob.jpeg" width="2000" height="2000" alt=""
+                                            uk-img>
+                                    </div>
+                                    <div class="uk-card-body uk-card-secondary">
+                                        <h3 class="uk-card-title"><a href="https://h-benitez13.github.io/unit-4-game/">Collector Game</a></h3>
+                                        <p>Spongebob themed game, where you have to try and match the score given to you by 
+                                            pressing the buttons on screen...(the trick) you dont know how much each button is worth.
+                                            Give it a go! if you dare!
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <img data-src="Assets/images/music.jpg" width="2000" height="2000" alt=""
+                                            uk-img>
+                                    </div>
+                                    <div class="uk-card-body uk-card-secondary">
+                                        <h3 class="uk-card-title"> <a href="https://h-benitez13.github.io/Trivia/">
+
+                                            TRIVIA!!!</a></h3>
+                                        <p>Do you sing in the shower? car? to YOURSELF? then try this Music-Trivia game where
+                                            your knowledge on music is put to the test.
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <img data-src="Assets/images/giftastic.gif" width="2000" height="2000" alt=""
+                                            uk-img>
+                                    </div>
+                                    <div class="uk-card-body uk-card-secondary">
+                                        <h3 class="uk-card-title"><a href="https://h-benitez13.github.io/GIFtastic/">
+                                            GIFtastic!</a></h3>
+                                        <p>If you are looking for a moral booster, look no further. Go in and search for disney 
+                                            based characters for a nastolgic run-down-memory lane.
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <img data-src="Assets/images/train.gif" width="2000" height="2000" alt=""
+                                            uk-img>
+                                    </div>
+                                    <div class="uk-card-body uk-card-secondary">
+                                        <h3 class="uk-card-title"> <a href="https://h-benitez13.github.io/Thomas-the-train/">
+
+                                            Train Schedule</a></h3>
+                                        <p>Simple, yet elegant train station schedule. Any location for any time, 
+                                            no distance is out of reach!
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
+                            uk-slidenav-previous uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                            uk-slider-item="next"></a>
+
+                    </div>
+
+                    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="uk-section uk-section-overlap uk-section-muted">
+        <div class="uk-container">
+
+            <form class="wrapper">
+                <section id="content">
+                    <h1 id="Contact"> Contact</h1>
+                    <hr>
+                    <form>
+                        <ul style="list-style-type:none">
+                            <li>
+                                <label for="Name">
+                                    Name
+                                </label>
+                                <input type="text" id="textarea" name="Name">
+                            </li><br>
+                            <li>
+                                <label for="Email">
+                                    Email
+                                    <input type="text" id="textarea" name="Email">
+                                </label>
+                            </li><br>
+                            <li>
+                                <label for="message">
+                                    Message
+                                    <textarea for="Message" row="5" cols="100">
+                                 </textarea><br>
+                        </ul>
+                        <button type="sumbit" name="submit">
+                            Submit
+
+                    </form>
+                </section>
+            </form>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.2/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.2/js/uikit-icons.min.js"></script>
+
+</body>
 
 </html>
