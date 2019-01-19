@@ -1,12 +1,5 @@
-.wrapper{
-    width: 960px;
-    margin: 40px auto 120px;
-    margin-top: 40px;
-    clear: both;
-    position: relative;
-    background-color: #ffffff;
-    border-color: #dddddd;
- 
+#first {
+    font-size: 25px;
 }
 
 .uk-position-large {
@@ -19,6 +12,18 @@ p, h3 {
 }
 p:hover, h3:hover{
     color: white;
+}
+#icon {
+    background-color: black;
+    color: white; 
+    width: 75px; 
+    height: 75px;
+}
+
+#icon:active {
+    
+    box-shadow: 0 5px whitesmoke;
+    transform: translateY(4px);
 }
 
 
@@ -33,6 +38,8 @@ p:hover, h3:hover{
 #back {
     height: 800px;
 }
+
+
 
 button {
     background: #4aaaa5;
