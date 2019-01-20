@@ -22,7 +22,8 @@
 
                 <h1 class="uk-position-medium uk-position-center">Full-Stack Developer
 
-                    <p> Welcome! I'm Hector, passionate about building apps and collaborating with other developers.  </p>
+                    <p> Welcome! I'm Hector, passionate about building apps and collaborating with other developers.
+                    </p>
                 </h1>
 
             </div>
@@ -44,10 +45,10 @@
 
 
                             <ul class=" uk-subnav uk-subnav-divider">
-                                <li><a href="#Content">About</a></li>
-                                <li><a href="#Portfolio">Portfolio</a></li>
-                                <li><a href="#Media">Social Media</a></li>
-                                <li><a href="#Connect">Contact</a></li>
+                                <li><a href="#Content"uk-scroll>About</a></li>
+                                <li><a href="#Portfolio"uk-scroll>Portfolio</a></li>
+                                <li><a href="#Media" uk-scroll>Social Media</a></li>
+                                <li><a href="#Connect"uk-scroll>Contact</a></li>
 
                             </ul>
 
@@ -287,48 +288,74 @@
         <div class="uk-container">
             <h1 class="uk-heading-bullet">Insider's Profile</h1>
             <div class="uk-grid-match uk-child-width-expand@m" uk-grid>
-                <div></div>
-                <div>
-                    <div>
-                        <a id="icon" href="https://twitter.com/lefty_neni13" class="uk-icon-button uk-margin-small-right "
-                            uk-icon="twitter" style="background-color: lightskyblue;"></a>
-                        <a id="icon" href="https://www.facebook.com/neni.benitez.9" class="uk-icon-button  uk-margin-small-right "
-                            uk-icon="facebook" style="background-color: navy;"></a>
-                        <a id="icon" href="https://www.instagram.com/neni0513/?hl=en" class="uk-icon-button  uk-margin-small-right "
-                            uk-icon="instagram" style="  background-image: linear-gradient(to top right, yellow, red, purple)"></a>
-                        <a id="icon" href="https://www.linkedin.com/in/hector-benitez-937251127/" class="uk-icon-button  uk-margin-small-right "
-                            uk-icon="linkedin" style="background-color: blue;"></a>
-                        <a id="icon" href="https://github.com/h-Benitez13" class="uk-icon-button  uk-margin-small-right "
-                            uk-icon="github"></a>
+
+                <div class="uk-flex uk-flex-column">
+
+
+                    <div class="uk-animation-toggle" tabindex="0">
+                        <a id="icon" href="https://twitter.com/lefty_neni13" class="uk-icon-button  uk-animation-shake "
+                            uk-icon="twitter" style="background-color: lightskyblue;" uk-tooltip="twitter"></a>
+                    </div>
+                    <div class="uk-animation-toggle" tabindex="0">
+                        <a id="icon" href="https://www.facebook.com/neni.benitez.9" class="uk-icon-button uk-animation-shake "
+                            uk-icon="facebook" style="background-color: navy;" uk-tooltip="facebook"></a>
+                    </div>
+
+                    <div class="uk-animation-toggle" tabindex="0">
+                        <a id="icon" href="https://www.instagram.com/neni0513/?hl=en" class="uk-icon-button uk-animation-shake"
+                            uk-icon="instagram" style="  background-image: linear-gradient(to top right, yellow, red, purple)"
+                            uk-tooltip="instagram"></a>
+                    </div>
+
+                    <div class="uk-animation-toggle" tabindex="0"> <a id="icon" href="https://www.linkedin.com/in/hector-benitez-937251127/"
+                            class="uk-icon-button uk-animation-shake " uk-icon="linkedin" style="background-color: blue;"
+                            uk-tooltip="linkedin"></a>
+                    </div>
+
+                    <div class="uk-animation-toggle" tabindex="0">
+                        <a id="icon" href="https://github.com/h-Benitez13" class="uk-icon-button uk-animation-shake "
+                            uk-icon="github" uk-tooltip="github"></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
-
-    <div id="Connect"class="uk-section uk-section-large uk-section-muted">
+    <div id="Connect" class="uk-section uk-section-large uk-section-default ">
         <div class="uk-container uk-text-center">
 
-                <h1 class="uk-heading-line uk-text-center"><span>
-                    Contact Info
-                </span></h1>
-                <h3>Reach out, if desiring a collaboration project! Or just need someone to make you a site: </h3>
+            <h1 class="uk-heading-line uk-text-center" style="color: black;">
+                Contact
+            </h1>
+            <hr class="uk-divider-small uk-divider-primary">
+            <h3 style="color: black">Reach out, if desiring a collaboration project! Or just need someone to make
+                you a site: </h3>
 
-            <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
+            <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
                 <div>
-                    <p>Call <span uk-icon="icon: receiver"></span></p>
+                    <h3>Call<span class="uk-icon uk-icon-image" 
+                        style="background-image: url('Assets/images/phone.png'); width: 35px; height: 35px;"></span></h3>
                     <a href="">(323)868-5301</a>
                 </div>
+
                 <div>
-                </div>
-                <div>
-                    <p>Email <span uk-icon="icon: mail"></span></p>
-                    <a href="hbenitez3711@gmail.com">hbenitez3711@gmail.com</a>
+                    <h3>Email <span class="uk-icon uk-icon-image" 
+                        style="background-image: url('Assets/images/email.svg'); width: 60px; height: 60px;"></span></h3>
+                    <a href="#form">hbenitez3711@gmail.com</a>
                 </div>
             </div>
         </div>
+                <div class="uk-animation-toggle uk-margin-left" tabindex="0">
+                        <a id="totop" href="#back" class="uk-icon-button uk-animation-scale-up "
+                            uk-icon="arrow-up" uk-tooltip="To the TOP" uk-scroll></a>
+                    </div>
+
     </div>
+
+
+
+
+
+
 
 
 
