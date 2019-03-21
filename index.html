@@ -10,7 +10,29 @@
     <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
 
     <!-- <link rel="stylesheet" href="Asset/css/reset.css"> -->
+    <!-- UI Kit css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.2/css/uikit.min.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <!-- UI kit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.2/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.2/js/uikit-icons.min.js"></script>
+    <!-- Bootstrap JS & JQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!-- Import fonts for my name -->
+
     <style>
         @import url('https://fonts.googleapis.com/css?family=Marck+Script');
     </style>
@@ -19,27 +41,29 @@
 
 <body>
 
-    <div class="uk-section-default">
-        <div id="back" class="uk-section uk-light uk-background-cover"
-            style="background-image: url(Assets/images/LA_back.jpg)">
-            <a id="logo" class="uk-logo uk-margin-medium-left uk-position-top-left" href="#logo" uk-sticky>HB</a></li>
-            <div class="uk-container">
 
-                <h1 class="uk-position-large uk-position-center uk-margin-bottom">Full-Stack Developer
+    <div id="back" class="uk-section uk-light uk-background-cover"
+        style="background-image: url(Assets/images/LA_back.jpg)">
+        <a id="logo" class="uk-logo uk-margin-medium-left uk-position-top-left" href="#logo" uk-sticky>HB</a></li>
+        <div class="uk-container">
 
-                </h1>
-                <div class="uk-flex uk-flex-column uk-position-center uk-margin-large-top">
+            <h1 class="uk-position-large uk-position-center uk-margin-bottom">Full-Stack Developer
 
-                    <h3 class="uk-position-medium " style="color: white"> Welcome, I'm Hector! Ethusiastic and
-                        passionate about building apps and
-                        collaborating
-                        with other developers.
-                    </h3>
-                </div>
+            </h1>
+            <div class="uk-flex uk-flex-column uk-position-center uk-margin-large-top">
 
+                <h3 class="uk-position-medium " style="color: white"> Welcome, I'm Hector! Ethusiastic and
+                    passionate about building apps and
+                    collaborating
+                    with other developers.
+                </h3>
             </div>
+
         </div>
     </div>
+
+    
+
 
 
 
@@ -82,8 +106,9 @@
                     <div class="uk-width-auto">
                         <img class="uk-border-circle uk-border-hover" src="Assets/images/IMG_3331.jpg" alt="dis ME">
                     </div>
-                    
-                    <a class="uk-width-2-3 uk-margin-top uk-button uk-button-default" href="Assets/resume/Front-End Developer Resume.pdf">
+
+                    <a class="uk-width-2-3 uk-margin-top uk-button uk-button-default"
+                        href="Assets/resume/Front-End Developer Resume.pdf">
                         <span uk-icon="download"></span>Download My Resume </a>
                 </div>
 
@@ -378,6 +403,37 @@
                                     </div>
                                 </div>
                             </li>
+                            <li>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <img data-src="Assets/images/project2.png" width="2000" height="2000" alt=""
+                                            uk-img>
+                                    </div>
+                                    <div class="uk-card-body uk-card-secondary">
+                                        <h3 class="uk-card-title"> <a href="https://github.com/BrownRileyC/Team6-Repo">
+
+                                                You Got This! </a></h3>
+                                        <p>Second Group project: Full-stack application!
+                                            <strong>You Got This!</strong> uses <i>Node.js</i>, <i>MySql (as the main
+                                                database)</i>,
+                                            and <i>Npm package <strong>Sequelize</strong> </i> to create,update,delete a
+                                            user's personal
+                                            data. The application itself is a stress-induced-event manager where you can
+                                            use to
+                                            schedule and check on the upcoming events e.g. Networking, Interview or
+                                            Presentation; and
+                                            prepare before attending. Once creating an event, send you to your checklist
+                                            page for before-event things-to-do while keeping track of total items
+                                            checked off.At the end,
+                                            you take a self-reflective survey, displaying a percentage of how confident
+                                            you feel you did in
+                                            said event! To check out the <strong>Heroku</strong> site click <a
+                                                href="https://you-got-this.herokuapp.com/">here!</a>
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
                         </ul>
 
                         <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
@@ -424,16 +480,16 @@
                     </div>
                 </div>
                 <div uk-scrollspy="cls: uk-animation-scale-up: target: > button > .uk-icon-button;  repeat: true">
-    
+
                     <h1 class="uk-heading-bullet">Insider's Profile</h1>
                     <div class=" uk-child-width-expand uk-grid-small" uk-grid>
-    
+
                         <div class="uk-width-1-5 uk-animation-toggle ">
                             <button id="icon" href="https://twitter.com/lefty_neni13"
                                 class="uk-icon-button uk-animation-shake " uk-icon="twitter"
                                 style="background-color: lightskyblue;" uk-tooltip="twitter"></button>
                         </div>
-    
+
                         <div class="uk-width-1-5 uk-animation-toggle">
                             <button id="icon" href="https://www.facebook.com/neni.benitez.9"
                                 class="uk-icon-button uk-animation-shake " uk-icon="facebook"
@@ -452,40 +508,29 @@
                                 class="uk-icon-button uk-animation-shake " uk-icon="linkedin"
                                 style="background-color: blue;" uk-tooltip="linkedin"></button>
                         </div>
-    
+
                         <div class=" uk-animation-toggle">
                             <button id="icon" href="https://github.com/h-Benitez13"
-                                class="uk-icon-button uk-animation-shake " uk-icon="github" uk-tooltip="github"></button>
+                                class="uk-icon-button uk-animation-shake " uk-icon="github"
+                                uk-tooltip="github"></button>
                         </div>
                     </div>
-    
+
                 </div>
             </div>
         </div>
         <br>
-        <a uk-tooltip="Back to the top!" class="uk-icon-button-default uk-float-right uk-margin-right uk-dark"  href="#"  uk-scroll>
+        <a uk-tooltip="Back to the top!" class="uk-icon-button-default uk-float-right uk-margin-right uk-dark" href="#"
+            uk-scroll>
             <span uk-icon="icon: arrow-up; ratio: 3.0"></span>
         </a>
-        
+
     </div>
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.2/js/uikit.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.2/js/uikit-icons.min.js"></script>
 
 </body>
 
