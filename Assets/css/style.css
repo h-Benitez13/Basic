@@ -1,3 +1,34 @@
+/* welcome page  */
+#welcome {
+    background-image: url("../images/dance.gif");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: inherit;
+    height: 600px;
+    background-color: black;
+}
+
+#personal-pic{
+}
+
+#navy-bar{
+ 
+}
+
+
+#backStory {
+    background-image: url("../images/LA_back.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+}
+
+#story > p {
+    color: white;
+}
 #first {
     font-size: 25px;
 }
@@ -16,13 +47,7 @@
     margin-bottom: 50px;
 }
 
-p, h3 {
-    color: black;
-    transition: color 4s;
-}
-p:hover, h3:hover{
-    color: white;
-}
+
 #icon {
     background-color: black;
     color: white; 
