@@ -1,21 +1,13 @@
 /* welcome page  */
 #welcome {
-    background-image: url("../images/dance.gif");
-    background-position: center;
+    background-image: url("../images/retro-calm.gif");
+    background-position: top ;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: inherit;
-    height: 600px;
-    background-color: black;
+    background-size: cover;
+    height: 680px;
+    
 }
-
-#personal-pic{
-}
-
-#navy-bar{
- 
-}
-
 
 #backStory {
     background-image: url("../images/LA_back.jpg");
@@ -42,6 +34,9 @@
 #profile {
     background-color: #222;
 }
+
+
+
 
 .uk-position-large {
     margin-bottom: 50px;
