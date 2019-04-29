@@ -18,6 +18,15 @@
     height: 700px;
 }
 
+#Portfolio{
+    background-image: url('../images/aesthetic-black.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
 #story > p {
     color: white;
 }
@@ -35,9 +44,7 @@
     background-color: #222;
 }
 
-#colorTest{
-    background-color:white;
-}
+
 
 
 
