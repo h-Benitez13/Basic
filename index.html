@@ -158,8 +158,7 @@
     </div>
 
     <!-- Skills sections -->
-    <div class="uk-section  uk-section-muted">
-
+    <div class="uk-section uk-section-large uk-section-muted">
 
 
         <!-- Filter section -->
@@ -168,94 +167,119 @@
 
             <!-- navbar for filter -->
 
+            <div class="uk-grid-small uk-flex-column uk-float-right uk-child-auto" uk-grid>
+                <div>
+                    <!-- Front-end -->
+                    <ul class="uk-subnav uk-subnav-pill uk-flex-column ">
+                        <li class="uk-active uk-margin-top" uk-filter-control="[data-end='front-end']"><a
+                                href="#">Front-End</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="uk-subnav uk-subnav-pill uk-flex-column">
+                        <!-- HTML -->
+                        <li uk-filter-control="[data-base='html']" uk-tooltip='HTML'><a href="#">
+                                <span class="uk-icon uk-icon-image"
+                                    style="background-image: url(Assets/images/tech/html.png); width: 50px; height: 50px;"></span>
+                            </a></li>
+                        <!-- CSS -->
+                        <li uk-filter-control="[data-style='css']" uk-tooltip='CSS'><a href="#">
+                                <span class="uk-icon uk-icon-image"
+                                    style="background-image: url(Assets/images/tech/css.png); width: 50px; height: 50px;"></span>
+                            </a></li>
+                        <!-- JS -->
+                        <li uk-filter-control="[data-js='javascript']" uk-tooltip='Javascript'><a href="#">
+                                <span class="uk-icon uk-icon-image"
+                                    style="background-image: url(Assets/images/tech/v-js.png); width: 50px; height: 50px;"></span>
+                            </a></li>
+                        <!-- jQuery -->
+                        <li uk-filter-control="[data-jq='jquery']" uk-tooltip='jQuery'><a href="#">
+                                <span class="uk-icon uk-icon-image"
+                                    style="background-image: url(Assets/images/tech/jquery.png); width: 50px; height: 50px;"></span>
+                            </a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="uk-subnav uk-subnav-pill uk-flex-column ">
+                        <!-- Back-end -->
+                        <li class="uk-active uk-margin-top" uk-filter-control="[data-end='back-end']"><a
+                                href="#">Back-End</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="uk-subnav uk-subnav-pill uk-flex-column ">
+                        <!-- Node.js -->
+                        <li uk-filter-control="[data-node='node']" uk-tooltip='Node.js'><a href="#">
+                                <span class="uk-icon uk-icon-image"
+                                    style="background-image: url(Assets/images/tech/node.png); width: 50px; height: 50px;"></span>
+                            </a></li>
+                        <!-- Express.js -->
+                        <li uk-filter-control="[data-express='express']" uk-tooltip='Express.js'><a href="#">
+                                <span class="uk-icon uk-icon-image"
+                                    style="background-image: url(Assets/images/tech/express-js.png); width: 60px; height: 60px;"></span>
+                            </a></li>
+                        <!-- Firebase -->
+                        <li uk-filter-control="[data-fire='firebase']" uk-tooltip='Firebase'><a href="#">
+                                <span class="uk-icon uk-icon-image"
+                                    style="background-image: url(Assets/images/tech/firebase.png); width: 50px; height: 50px;"></span>
+                            </a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="uk-subnav uk-subnav-pill uk-flex-column ">
+                        <!-- Full-Stack -->
+                        <li class="uk-active uk-margin-top" uk-filter-control="[data-end='full-stack']"><a
+                                href="#">Full-Stack</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="uk-subnav uk-subnav-pill uk-flex-column ">
+                        <!-- MySQL -->
+                        <li uk-filter-control="[data-sql='mysql']" uk-tooltip='MySQL'><a href="#">
+                                <span class="uk-icon uk-icon-image"
+                                    style="background-image: url(Assets/images/tech/SQL.png); width: 50px; height: 50px;"></span>
+                            </a></li>
+                        <!-- MongoDB -->
+                        <li uk-filter-control="[data-mongo='mongo']" uk-tooltip='MongoDB'><a href="#">
+                                <span class="uk-icon uk-icon-image"
+                                    style="background-image: url(Assets/images/tech/mongodb.png); width: 70px; height: 70px;"></span>
+                            </a></li>
+                        <!-- React.JS -->
+                        <li uk-filter-control="[data-react='react']" uk-tooltip='React.js'><a href="#">
+                                <span class="uk-icon uk-icon-image"
+                                    style="background-image: url(Assets/images/tech/react.png); width: 50px; height: 50px;"></span>
+                            </a></li>
+                        <!-- Reset to all -->
+                        <li class="uk-active uk-margin-top" uk-filter-control><a href="#">All</a></li>
+                    </ul>
+                </div>
 
-            <ul class="uk-subnav uk-subnav-pill uk-margin-right uk-float-right uk-flex-column">
-
-                <!-- Front-end -->
-                <li class="uk-active uk-margin-top" uk-filter-control="[data-end='front-end']"><a href="#">Front-End</a>
-                </li>
-                <!-- HTML -->
-                <li uk-filter-control="[data-base='html']" uk-tooltip='HTML'><a href="#">
-                        <span class="uk-icon uk-icon-image"
-                            style="background-image: url(Assets/images/tech/html.png); width: 50px; height: 50px;"></span>
-                    </a></li>
-                <!-- CSS -->
-                <li uk-filter-control="[data-style='css']" uk-tooltip='CSS'><a href="#">
-                        <span class="uk-icon uk-icon-image"
-                            style="background-image: url(Assets/images/tech/css.png); width: 50px; height: 50px;"></span>
-                    </a></li>
-                <!-- JS -->
-                <li uk-filter-control="[data-js='javascript']" uk-tooltip='Javascript'><a href="#">
-                        <span class="uk-icon uk-icon-image"
-                            style="background-image: url(Assets/images/tech/v-js.png); width: 50px; height: 50px;"></span>
-                    </a></li>
-                <!-- jQuery -->
-                <li uk-filter-control="[data-jq='jquery']" uk-tooltip='jQuery'><a href="#">
-                        <span class="uk-icon uk-icon-image"
-                            style="background-image: url(Assets/images/tech/jquery.png); width: 50px; height: 50px;"></span>
-                    </a></li>
-
-                <!-- Back-end -->
-                <li class="uk-active uk-margin-top" uk-filter-control="[data-end='back-end']"><a href="#">Back-End</a>
-                </li>
-
-                <!-- Node.js -->
-                <li uk-filter-control="[data-node='node']" uk-tooltip='Node.js'><a href="#">
-                        <span class="uk-icon uk-icon-image"
-                            style="background-image: url(Assets/images/tech/node.png); width: 50px; height: 50px;"></span>
-                    </a></li>
-                <!-- Express.js -->
-                <li uk-filter-control="[data-express='express']" uk-tooltip='Express.js'><a href="#">
-                        <span class="uk-icon uk-icon-image"
-                            style="background-image: url(Assets/images/tech/express-js.png); width: 50px; height: 50px;"></span>
-                    </a></li>
-                <!-- Firebase -->
-                <li uk-filter-control="[data-fire='firebase']" uk-tooltip='Firebase'><a href="#">
-                        <span class="uk-icon uk-icon-image"
-                            style="background-image: url(Assets/images/tech/firebase.png); width: 50px; height: 50px;"></span>
-                    </a></li>
-
-                <!-- Full-Stack -->
-                <li class="uk-active uk-margin-top" uk-filter-control="[data-end='full-stack']"><a
-                        href="#">Full-Stack</a>
-                </li>
-
-                <!-- MySQL -->
-                <li uk-filter-control="[data-sql='mysql']" uk-tooltip='MySQL'><a href="#">
-                        <span class="uk-icon uk-icon-image"
-                            style="background-image: url(Assets/images/tech/SQL.png); width: 50px; height: 50px;"></span>
-                    </a></li>
-                <!-- MongoDB -->
-                <li uk-filter-control="[data-mongo='mongo']" uk-tooltip='MongoDB'><a href="#">
-                        <span class="uk-icon uk-icon-image"
-                            style="background-image: url(Assets/images/tech/mongodb.png); width: 50px; height: 50px;"></span>
-                    </a></li>
-                <!-- React.JS -->
-                <li uk-filter-control="[data-react='react']" uk-tooltip='React.js'><a href="#">
-                        <span class="uk-icon uk-icon-image"
-                            style="background-image: url(Assets/images/tech/react.png); width: 50px; height: 50px;"></span>
-                    </a></li>
-                <!-- Reset to all -->
-                <li class="uk-active uk-margin-top" uk-filter-control><a href="#">All</a></li>
-
-            </ul>
+            </div>
 
 
 
 
             <!-- section for filter parts -->
 
-            <ul class="js-filter uk-child-width-1-2 uk-child-width-1-2@s uk-text-center " uk-grid="masonry: true">
-                <li data-base="html" data-style="css" data-js="javascript" data-end="front-end">
-                    <div class="uk-card">
+            <ul class="js-filter uk-grid-large uk-child-width-1-2 uk-child-width-1-2@m uk-text-center"
+                uk-grid="masonry: true">
+
+                <li class="uk-padding-small" data-base="html" data-style="css" data-js="javascript"
+                    data-end="front-end">
+                    <div class="uk-card uk-card-body">
                         <canvas width="20" height="100"></canvas>
-                        <div class="uk-position-center uk-inline-clip uk-transition-toggle" tabindex=0>
-                            <img src="Assets/images/hangman.png" alt="">
+                        <div class=" uk-card-hover  uk-position-center uk-inline-clip uk-transition-toggle" tabindex=0>
+                            <img src="Assets/images/hangman.png" alt="" width="350px">
                             <div
                                 class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
-                                <a href="https://h-benitez13.github.io/Word-Guess-Game/">
-                                    Hang-man</a>
-                                <p class="uk-h6 uk-margin-remove">Classic Hang-man game using javasript. Using on-key
+
+                                <p class="uk-h5 uk-margin-remove">
+                                    <a href="https://h-benitez13.github.io/Word-Guess-Game/">
+                                        Hang-man</a>
+                                    Classic Hang-man game using javasript. Using on-key
                                     response is captured,
                                     assessed and displayed
                                     within the "Guess word" or pushed towards the "incorrect guesses"!</p>
@@ -264,11 +288,14 @@
                         </div>
                     </div>
                 </li>
-                <li data-base="html" data-style="css" data-js="jquery" data-end="front-end">
+
+
+
+                <li class="uk-padding-small" data-base="html" data-style="css" data-js="jquery" data-end="front-end">
                     <div class="uk-card">
                         <canvas width="20" height="100"></canvas>
                         <div class="uk-position-center uk-inline-clip uk-transition-toggle" tabindex=0>
-                            <img src="Assets/images/spongebob.jpeg" alt="">
+                            <img src="Assets/images/spongebob.jpeg" alt="" width="350px">
                             <div
                                 class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
                                 <p class="uk-h5 uk-margin-remove">
@@ -286,11 +313,31 @@
                         </div>
                     </div>
                 </li>
-                <li data-base="html" data-style="css" data-jq="jquery" data-end="front-end">
+                <li class="uk-padding" data-base="html" data-style="css" data-jq="jquery" data-fire="firebase"
+                    data-end="front-end">
                     <div class="uk-card">
                         <canvas width="20" height="100"></canvas>
                         <div class="uk-position-center uk-inline-clip uk-transition-toggle" tabindex=0>
-                            <img src="Assets/images/music.jpeg" alt="">
+                            <img src="Assets/images/train.gif" alt="" width="400px">
+                            <div
+                                class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+                                <p class="uk-h5 uk-margin-remove">
+                                    <a href="https://h-benitez13.github.io/Thomas-the-train/">
+                                        Train Schedule</a></h3>
+                                    Simple, yet elegant train station schedule. Any location for any time,
+                                    no distance is out of reach!
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+
+                <li class="uk-padding-small" data-base="html" data-style="css" data-jq="jquery" data-end="front-end">
+                    <div class="uk-card">
+                        <canvas width="20" height="100"></canvas>
+                        <div class="uk-position-center uk-inline-clip uk-transition-toggle" tabindex=0>
+                            <img src="Assets/images/music.jpeg" alt="" width="350px">
                             <div
                                 class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
                                 <p class="uk-h5 uk-margin-remove">
@@ -306,11 +353,51 @@
                         </div>
                     </div>
                 </li>
-                <li data-base="html" data-style="css" data-jq="jquery" data-end="front-end">
+                <li class="uk-padding" data-base="html" data-style="css" data-jq="jquery" data-end="front-end">
+                    <div class="uk-card ">
+                        <canvas width="20" height="100"></canvas>
+                        <div class="uk-position-center uk-inline-clip uk-transition-toggle" tabindex=0>
+                            <img src="Assets/images/project-1.png" alt="" width="400px">
+                            <div
+                                class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+                                <p class="uk-h4 uk-margin-remove"><a href="https://vs0018.github.io/Project-One/">
+                                        DreamMeetsSwipe</a>
+                                    Collaboration project where we set out to solve the traveling site
+                                    problem...
+                                    There's too many steps, with barely to little time!
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+                <li class="uk-padding-large" data-base="html" data-style="css" data-node="node" data-js="javascript"
+                data-express="express" data-sql="mysql" data-end="full-stack">
+                <div class="uk-card ">
+                    <canvas width="20" height="100"></canvas>
+                    <div class="uk-position-center uk-inline-clip uk-transition-toggle" tabindex=0>
+                        <img src="Assets/images/friend-finder.jpeg" alt="" width="350px">
+                        <div
+                            class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+                            <p class="uk-h5 uk-margin-remove"><a
+                                    href="https://github.com/h-Benitez13/Friends-finder">
+                                    Friend Finder </a>
+                                Random questions to find/match with your soul-mate!
+                                <a href="https://floating-crag-87667.herokuapp.com/">Now go and find your
+                                    friend!</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </li>
+
+
+                <li class="uk-padding-small" data-base="html" data-style="css" data-jq="jquery" data-end="front-end">
                     <div class="uk-card">
                         <canvas width="20" height="100"></canvas>
                         <div class="uk-position-center uk-inline-clip uk-transition-toggle" tabindex=0>
-                            <img src="Assets/images/giftastic.gif" alt="">
+                            <img src="Assets/images/giftastic.gif" alt="" width="350px">
                             <div
                                 class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
                                 <p class="uk-h5 uk-margin-remove">
@@ -325,69 +412,13 @@
                         </div>
                     </div>
                 </li>
-                <li data-base="html" data-style="css" data-jq="jquery" data-fire="firebase" data-end="front-end">
-                    <div class="uk-card">
-                        <canvas width="20" height="100"></canvas>
-                        <div class="uk-position-center uk-inline-clip uk-transition-toggle" tabindex=0>
-                            <img src="Assets/images/train.gif" alt="">
-                            <div
-                                class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
-                                <p class="uk-h5 uk-margin-remove">
-                                    <a href="https://h-benitez13.github.io/Thomas-the-train/">
-                                        Train Schedule</a></h3>
-                                    Simple, yet elegant train station schedule. Any location for any time,
-                                    no distance is out of reach!
-                                </p>
-                            </div>
 
-                        </div>
-                    </div>
-                </li>
-                <li data-base="html" data-style="css" data-jq="jquery" data-end="front-end">
+                <li class="uk-padding-large" data-node="node" data-express="express" data-sql="mysql"
+                    data-end="back-end">
                     <div class="uk-card ">
                         <canvas width="20" height="100"></canvas>
                         <div class="uk-position-center uk-inline-clip uk-transition-toggle" tabindex=0>
-                            <img src="Assets/images/project-1.png" alt="">
-                            <div
-                                class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
-                                <p class="uk-h5 uk-margin-remove"><a href="https://vs0018.github.io/Project-One/">
-                                        DreamMeetsSwipe</a>
-                                    Collaboration project where we set out to solve the traveling site
-                                    problem...
-                                    There's too many steps, with barely to little time!
-                                </p>
-                            </div>
-
-                        </div>
-                    </div>
-                </li>
-                <li data-node="node" data-express="express" data-js="javascript" data-end="back-end">
-                    <div class="uk-card">
-                        <canvas width="20" height="100"></canvas>
-                        <div class="uk-position-center uk-inline-clip uk-transition-toggle" tabindex=0>
-                            <img src="Assets/images/LIRI.gif" alt="">
-                            <div
-                                class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
-                                <p class="uk-h5 uk-margin-remove">
-                                    <a href="https://github.com/h-Benitez13/liri-node-app">
-                                        LIRI </a>
-                                    Language Interpretation and Recognition Interface.
-                                    This app is driven solely on NODE.JS! Using npm packages to retrieve
-                                    and manipulate data; Readme.md helpful for understanding the project
-                                    since it runs solely on the terminal.
-
-                                    You can check out the gifs to understand how the app works, enjoy!
-                                </p>
-                            </div>
-
-                        </div>
-                    </div>
-                </li>
-                <li data-node="node" data-express="express" data-sql="mysql" data-end="full-stack">
-                    <div class="uk-card ">
-                        <canvas width="20" height="100"></canvas>
-                        <div class="uk-position-center uk-inline-clip uk-transition-toggle" tabindex=0>
-                            <img src="Assets/images/shopping-cart-icon.jpg" alt="">
+                            <img src="Assets/images/shopping-cart-icon.jpg" alt="" width="350px">
                             <div
                                 class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
                                 <p class="uk-h5 uk-margin-remove"><a href="https://github.com/h-Benitez13/Bamazon">
@@ -407,28 +438,13 @@
                         </div>
                     </div>
                 </li>
-                <li data-base="html" data-style="css" data-node="node" data-js="javascript" data-express="express" data-sql="mysql" data-end="full-stack">
-                    <div class="uk-card ">
-                        <canvas width="20" height="100"></canvas>
-                        <div class="uk-position-center uk-inline-clip uk-transition-toggle" tabindex=0>
-                            <img src="Assets/images/friend-finder.jpeg" alt="">
-                            <div
-                                class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
-                                <p class="uk-h5 uk-margin-remove"><a href="https://github.com/h-Benitez13/Friends-finder">
-                                        Friend Finder </a>
-                                    Random questions to find/match with your soul-mate!
-                                    <a href="https://floating-crag-87667.herokuapp.com/">Now go and find your friend!</a>
-                                </p>
-                            </div>
-
-                        </div>
-                    </div>
-                </li>
-                <li data-base="html" data-css="style" data-jq="jquery" data-express="express" data-sql="mysql" data-end="full-stack">
+               
+                <li class="uk-padding-large" data-base="html" data-css="style" data-jq="jquery" data-express="express"
+                    data-sql="mysql" data-end="full-stack">
                     <div class="uk-card">
                         <canvas width="20" height="100"></canvas>
                         <div class="uk-position-center uk-inline-clip uk-transition-toggle" tabindex=0>
-                            <img src="Assets/images/hot-restaurant.png" alt="">
+                            <img src="Assets/images/hot-restaurant.png" alt="" width="350px">
                             <div
                                 class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
                                 <p class="uk-h5 uk-margin-remove">
@@ -453,11 +469,12 @@
                         </div>
                     </div>
                 </li>
-                <li data-base="html" data-style="css" data-node="node" data-jq="jquery" data-sql="mysql" data-end="full-stack">
+                <li class="uk-padding" data-base="html" data-style="css" data-node="node" data-jq="jquery"
+                    data-sql="mysql" data-end="full-stack">
                     <div class="uk-card ">
                         <canvas width="100" height="100"></canvas>
                         <div class="uk-position-center uk-inline-clip uk-transition-toggle" tabindex=0>
-                            <img src="Assets/images/project2.png" alt="">
+                            <img src="Assets/images/project2.png" alt="" width="300px">
                             <div
                                 class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
                                 <p class="uk-h6 uk-margin-remove">
@@ -465,24 +482,13 @@
                                         You Got This! </a>
                                     Second Group project: Full-stack application!
                                     <strong>You Got This!</strong> uses <i>Node.js</i>, <i>MySql (as the
-                                        main
-                                        database)</i>,
-                                    and <i>Npm package <strong>Sequelize</strong> </i> to
-                                    create,update,delete a
-                                    user's personal
-                                    data. The application itself is a stress-induced-event manager where you
-                                    can
-                                    use to
-                                    schedule and check on the upcoming events e.g. Networking, Interview or
-                                    Presentation; and
-                                    prepare before attending. Once creating an event, send you to your
-                                    checklist
-                                    page for before-event things-to-do while keeping track of total items
-                                    checked off.At the end,
-                                    you take a self-reflective survey, displaying a percentage of how
-                                    confident
-                                    you feel you did in
-                                    said event! To check out the <strong>Heroku</strong> site click <a
+                                        main database)</i>,and <i>Npm package <strong>Sequelize</strong> </i> to
+                                    create,update,delete a user's personal
+                                    data. The application is an event-manager for stress-induces occassions.
+                                    The application logs events, creates checklists, and maintains ones'
+                                    progress through completion of checklist. After the event, may take a
+                                    self-assessment test of the event.
+                                    To check out the <strong>Heroku</strong> site click <a
                                         href="https://you-got-this.herokuapp.com/">here!</a>
 
                                 </p>
@@ -491,41 +497,75 @@
                         </div>
                     </div>
                 </li>
-                <li data-base="html" data-style="css" data-jq="jquery" data-mongo="mongo" data-end="full-stack">
-                    <div class="uk-card ">
-                        <canvas width="100" height="100"></canvas>
+                <li class="uk-padding" data-node="node" data-express="express" data-js="javascript" data-end="back-end">
+                    <div class="uk-card">
+                        <canvas width="20" height="100"></canvas>
                         <div class="uk-position-center uk-inline-clip uk-transition-toggle" tabindex=0>
-                            <img src="Assets/images/mongo-scraper.png" alt="">
+                            <img src="Assets/images/LIRI.gif" alt="" width="400px">
                             <div
                                 class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
                                 <p class="uk-h5 uk-margin-remove">
-                                    <a href="https://github.com/h-Benitez13/MongoDB-Scraper">
-                                        Mongo-Scraper (repo)</a>
-                                        The Mongo-scraper is the classic application for scraping articles (www.echojs.com), and displaying
-                                        the article title and link. A user can save and write notes on the saved articles. The saved articles are stored 
-                                        using MongoDB. 
-                                    <a href="https://mongodb-scraper-hw.herokuapp.com/">Click here for the application!</a>
+                                    <a href="https://github.com/h-Benitez13/liri-node-app">
+                                        LIRI </a>
+                                    Language Interpretation and Recognition Interface.
+                                    This app is driven solely on NODE.JS! Using npm packages to retrieve
+                                    and manipulate data; Readme.md helpful for understanding the project
+                                    since it runs solely on the terminal.
 
+                                    You can check out the gifs to understand how the app works, enjoy!
                                 </p>
                             </div>
 
                         </div>
                     </div>
                 </li>
-                <li data-base="html" data-style="css" data-js="javascript" data-mongo="mongo" data-react="react" data-end="full-stack">
+                <li class="uk-padding" data-base="html" data-style="css" data-js="javascript" data-mongo="mongo"
+                    data-react="react" data-end="full-stack">
                     <div class="uk-card ">
                         <canvas width="100" height="100"></canvas>
                         <div class="uk-position-center uk-inline-clip uk-transition-toggle" tabindex=0>
-                            <img src="Assets/images/game-gif.gif" alt="">
+                            <img src="Assets/images/game-gif.gif" alt="" width="350px">
                             <div
                                 class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
                                 <p class="uk-h5 uk-margin-remove">
                                     <a href="https://github.com/fernandamarr/FireStorm">
                                         Firestorm (repo)</a>
-                                        The final project of the cohort, my group and I take on the challenge of creating
-                                        a retro-platform game, inspired by the classic Mario Bros. game. We use <b>passport.js</b> for 
-                                        user authentication, <b>Phaser.js</b> for game logic, and <b>React.js</b> for the surrounding pages of the game.
-                                    <a href="https://firestorm-game.herokuapp.com/">Click here for the application!</a>
+                                    The final project of the cohort, my group and I take on the challenge of
+                                    creating
+                                    a retro-platform game, inspired by the classic Mario Bros. game. We use
+                                    <b>passport.js</b> for
+                                    user authentication, <b>Phaser.js</b> for game logic, and <b>React.js</b> for
+                                    the
+                                    surrounding pages of the game.
+                                    <a href="https://firestorm-game.herokuapp.com/">Click here for the
+                                        application!</a>
+
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+                <li class="uk-padding-small" data-base="html" data-style="css" data-jq="jquery" data-mongo="mongo"
+                    data-end="full-stack">
+                    <div class="uk-card ">
+                        <canvas width="100" height="100"></canvas>
+                        <div class="uk-position-center uk-inline-clip uk-transition-toggle" tabindex=0>
+                            <img src="Assets/images/mongo-scraper.png" alt="" width="450px">
+                            <div
+                                class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+                                <p class="uk-h5 uk-margin-remove">
+                                    <a href="https://github.com/h-Benitez13/MongoDB-Scraper">
+                                        Mongo-Scraper (repo)</a>
+                                    The Mongo-scraper is the classic application for scraping articles
+                                    (www.echojs.com),
+                                    and displaying
+                                    the article title and link. A user can save and write notes on the saved
+                                    articles.
+                                    The saved articles are stored
+                                    using MongoDB.
+                                    <a href="https://mongodb-scraper-hw.herokuapp.com/">Click here for the
+                                        application!</a>
 
                                 </p>
                             </div>
@@ -534,13 +574,11 @@
                     </div>
                 </li>
 
+
             </ul>
 
+
         </div>
-
-
-
-
 
     </div>
 
