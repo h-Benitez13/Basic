@@ -19,12 +19,22 @@
 }
 
 #Portfolio{
-    background-image: url('../images/aesthetic-black.jpg');
-    background-size: cover;
+    background-image:url('../images/rock.jpg'), linear-gradient(to right, white,rgb(74, 72, 72),black,black,black);
+    background-size: initial;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right center;
+    background-color: rgb(38,43,53);
     
+}
+
+#Personal-Info{
+    background-image: url('../images/subtle.gif');
+    background-size: inherit;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-color: rgb(12, 12, 48);
 }
 
 #story > p {
@@ -64,8 +74,8 @@
 }
 
 #icon:active {
-    
-    box-shadow: 0 5px whitesmoke;
+    box-shadow: 0 5px white;
+    border: 1px black solid;
     transform: translateY(4px);
 }
 

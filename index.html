@@ -70,7 +70,6 @@
                             <ul class=" uk-subnav uk-subnav-divider" uk-scrollspy-nav="closest: li; scroll: true">
                                 <li><a href="#backStory" uk-scroll>About</a></li>
                                 <li><a href="#Portfolio" uk-scroll>Portfolio</a></li>
-
                                 <li><a href="#Personal-Info" uk-scroll>Contact</a></li>
 
                             </ul>
@@ -107,8 +106,8 @@
 
 
     <!-- Background/story of my life -->
-    <div id="backStory" class="jumbotron jumbotron-fluid">
-        <div class="container">
+    <div id="backStory" class="uk-section uk-section-default">
+        <div class="uk-container">
             <h1 class="display-4 text-white">Here's my story...</h1>
             <div id="story" class="uk-column-1-2 uk-column-divider"
                 uk-scrollspy="cls: uk-animation-fade; target: > p ; delay: 500; repeat: true">
@@ -137,30 +136,21 @@
 
     <!-- Transition to Coding skills -->
 
-    <div class="uk-container uk-container-small">
-        <div class="uk-containter uk-container-small uk-text-center ">
-            <div class=" uk-flex uk-flex-inline uk-flex-middle uk-visible-toggle ">
-                <div class="uk-card ">
-                    <img src="Assets/images/brain.gif" style="width: 300px; height: 300px; margin-bottom: 20px">
-
+    <div class="uk-section uk-section-xsmall uk-section-default">
+        <div class="uk-container uk-container-small">
+            <div class=" uk-flex uk-flex-center uk-flex-middle uk-visible-toggle ">
+                <div class="uk-hidden-hover">
+                    <h1 class="uk-heading-line ">
+                        <span>
+                            I love to Code!
+                        </span>
+                    </h1>
                 </div>
-                <div class="uk-card uk-margin-right">
-                    <span style="color: red; margin-left: -60px;" uk-icon="icon: heart; ratio: 4.5"></span>
+                <img src="Assets/images/brain.gif" style="width: 300px; height: 300px; margin-bottom: 20px">
+                <span style="color: red; margin-left: -60px; margin-right: 40px"
+                    uk-icon="icon: heart; ratio: 4.5"></span>
+                <img src="Assets/images/code.gif" style="width: 115px; height: 115px; ">
 
-                    <div class="uk-hidden-hover">
-                        <h1 class="uk-heading-line uk-text-center">
-                            <span>
-                                I love to Code!
-                            </span>
-                        </h1>
-                    </div>
-                </div>
-                <div class="uk-card uk-margin-left">
-
-                    <img src="Assets/images/code.gif" style="width: 115px; height: 115px; ">
-
-                </div>
-                
             </div>
         </div>
     </div>
@@ -173,13 +163,17 @@
             <!-- Filter section -->
 
             <div class="uk-clearfix " uk-filter="target: .js-filter">
-                
+
                 <!-- navbar for filter -->
 
                 <div class="uk-grid-small uk-flex-column uk-float-right uk-child-auto" uk-grid>
-                        <h1 class=" uk-heading-bullet uk-text-center text-white">
-                                Projects
-                            </h1>
+                    <h1 class=" uk-heading-bullet uk-text-center text-white">
+                        Projects
+                    </h1>
+                    <h1 class="uk-heading uk-text-center text-white"
+                        uk-scrollspy="cls: uk-animation-slide-right; delay: 500; repeat: true">
+                        & Skillset
+                    </h1>
                     <div>
                         <!-- Front-end -->
                         <ul class="uk-subnav uk-subnav-pill uk-flex-column ">
@@ -544,7 +538,7 @@
                                 <img src="Assets/images/game-gif.gif" alt="" width="430px">
                                 <div
                                     class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
-                                    <p class="uk-h5 uk-margin-remove">
+                                    <p class="uk-h6 uk-margin-remove">
                                         <a href="https://github.com/fernandamarr/FireStorm">
                                             Firestorm (repo)</a>
                                         The final project of the cohort, my group and I take on the challenge of
@@ -590,6 +584,29 @@
                             </div>
                         </div>
                     </li>
+                    <li class="uk-padding" data-base="html" data-style="css" data-jq="jquery" data-mongo="mongo"
+                        data-react="react" data-end="full-stack">
+                        <div class="uk-card ">
+                            <canvas width="100" height="100"></canvas>
+                            <div class="uk-position-center uk-inline-clip uk-transition-toggle" tabindex=0>
+                                <img src="Assets/images/Looney_Tunes.png" alt="" width="450px">
+                                <div
+                                    class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+                                    <p class="uk-h5 uk-margin-remove">
+                                        <a href="https://github.com/h-Benitez13/C-game">
+                                            Clicky-Game (repo)</a>
+                                        The clicky game is themed around Looney Toons! Click a character and earn a
+                                        point,
+                                        the challenge? click each character <b>only once!</b>
+                                        <a href="https://h-benitez13.github.io/C-game/">Click here for the
+                                            application!</a>
+
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </li>
 
 
                 </ul>
@@ -599,12 +616,62 @@
         </div>
 
     </div>
+    <!-- separating white bar (aesthetics) -->
+    <div class="uk-section uk-section-default uk-section-small"></div>
 
+    <!-- Contact section -->
+    <div id="Personal-Info" class="uk-section uk-section-small uk-section-default">
+        <div class="uk-container uk-container-small">
+            <div class="uk-flex uk-flex-center " uk-grid
+                uk-scrollspy="cls: uk-animation-fade; target: .uk-animation-toggle; delay: 500; repeat: true;">
+                <div>
+                    <div class="uk-animation-toggle">
+                        <a class="uk-icon-button uk-border-circle uk-animation-shake"
+                            href="https://twitter.com/lefty_neni13" uk-icon="twitter"
+                            style="background-color:lightskyblue; color: white; width: 100px; height: 100px;"
+                            uk-tooltip="Twitter"></a>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-animation-toggle">
+                        <a class="uk-icon-button uk-border-circle uk-animation-shake"
+                            href="https://www.facebook.com/neni.benitez.9" uk-icon="facebook"
+                            style="background-color:navy; color: white; width: 100px; height: 100px;"
+                            uk-tooltip="Facebook"></a>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-animation-toggle">
+                        <a class="uk-icon-button uk-border-circle uk-animation-shake"
+                            href="https://www.instagram.com/neni0513/?hl=en" uk-icon="instagram"
+                            style="  background-image: linear-gradient(to top right, yellow, red, purple); color: white; width: 100px; height: 100px;"
+                            uk-tooltip="Instagram"></a>
 
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-animation-toggle">
+                        <a class="uk-icon-button uk-border-circle uk-animation-shake"
+                            href="https://www.linkedin.com/in/hector-benitez-937251127/" uk-icon="linkedin"
+                            style="background-color:blue; color: white; width: 100px; height: 100px;"
+                            uk-tooltip="LinkedIn"></a>
 
-    
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-animation-toggle">
+                        <a class="uk-icon-button uk-border-circle uk-animation-shake"
+                            href="https://github.com/h-Benitez13" uk-icon="github"
+                            style="background-color:black; color: white; width: 100px; height: 100px;"
+                            uk-tooltip="github"></a>
 
-    <div id="Personal-Info" class="uk-section uk-section-secondary uk-section-large">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="uk-section uk-section-muted uk-section-large">
         <div class="uk-container">
             <a class="uk-button uk-button-text" href="Assets/resume/Front-End Developer Resume.pdf">
                 <span uk-icon="download"></span>Download My Resume </a>
