@@ -19,16 +19,16 @@
 }
 
 #Portfolio{
-    background-image:url('../images/rock.jpg'), linear-gradient(to right, white,rgb(74, 72, 72),black,black,black);
-    background-size: initial;
-    background-attachment: fixed;
+    background-image:url('../images/love.jpg'),url('../images/moon.jpg'), linear-gradient(to right, white,rgb(74, 72, 72),black,black,black);
+    background-size: initial, contain;
+    background-attachment: scroll;
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: bottom right, top right;
     background-color: rgb(38,43,53);
     
 }
 
-#Personal-Info{
+#Social-Media{
     background-image: url('../images/subtle.gif');
     background-size: inherit;
     background-attachment: fixed;
@@ -53,10 +53,6 @@
 #profile {
     background-color: #222;
 }
-
-
-
-
 
 
 .uk-position-large {
