@@ -40,9 +40,7 @@
 #story > p {
     color: white;
 }
-#first {
-    font-size: 25px;
-}
+
 #logo {
     font-size: 45px;
     color: white; 
@@ -54,39 +52,17 @@
     background-color: #222;
 }
 
+.uk-icon-button:active {
+    box-shadow: 0 5px white;
+    border: 1px black solid;
+    transform: translateY(4px);
+}
 
 .uk-position-large {
     margin-bottom: 50px;
 }
 
 
-#icon {
-    background-color: black;
-    color: white; 
-   height: 100px; 
-    width: 100px; 
-  
-    
-}
-
-#icon:active {
-    box-shadow: 0 5px white;
-    border: 1px black solid;
-    transform: translateY(4px);
-}
-
-
-#blurp {
-    background-image: url("../images/dance.gif");
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: fixed;
-    
-    
-}
-#back {
-    height: 800px;
-}
 
 #totop {
     background-color: white;
