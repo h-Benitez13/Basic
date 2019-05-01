@@ -7,7 +7,7 @@
     background-size: cover;
     height: 680px;
     
-}
+} 
 
 #backStory {
     background-image: url("../images/LA_back.jpg");
@@ -75,3 +75,42 @@
 
 }
 
+@media only screen and (max-width: 600px){
+
+    #welcome{
+        background-image: url("../images/retro-calm.gif");
+        background-position: top ;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 800px;
+    }
+
+    #logo{
+       font-size: 25px;
+       color: white; 
+        font-family: 'Marck Script', cursive;
+        opacity: 0.7;
+    }
+    
+    #prof-pic, #fun-pic{
+        height: 300px;
+        width: 400px;
+    }
+
+    #backStory{
+        background-image: url("../images/LA_back.jpg");
+        background-size: cover;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 900px;
+    }
+   
+    #love-code{
+        width: 250px;
+    }
+
+   
+
+}
