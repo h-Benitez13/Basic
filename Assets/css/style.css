@@ -24,7 +24,6 @@
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-position: bottom right, top right;
-    background-color: rgb(38,43,53);
     
 }
 
@@ -85,6 +84,8 @@
         background-size: cover;
         height: 800px;
     }
+
+   
 
     #logo{
        font-size: 25px;
